@@ -1,0 +1,16 @@
+{
+   "configurations": [
+      {
+         "name": "Start API Server",
+         "type": "go",
+         "request": "launch",
+         "mode": "debug",
+         "program": "${workspaceFolder}/cmd/server/",
+         "env": {
+            "HANDLER_TIMEOUT_SECONDS": 0,
+            "PORT": 3000,
+            "ROUTER": "GIN"
+         }
+      }
+   ]
+}
